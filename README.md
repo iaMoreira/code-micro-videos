@@ -19,3 +19,21 @@ $ docker-compose up
 ```
 http://localhost:8000
 ```
+
+
+## Executando testes
+
+````bash
+vendor/bin/phpunit
+````
+
+Executando os testes individualmente:
+````bash
+vendor/bin/phpunit --filter CategoryTest
+````
+
+Executando os testes em métodos individualemente:
+
+````bash
+vendor/bin/phpunit --filter CategoryTest::testExample
+````
