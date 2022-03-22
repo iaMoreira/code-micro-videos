@@ -37,3 +37,8 @@ Executando os testes em métodos individualemente:
 ````bash
 vendor/bin/phpunit --filter CategoryTest::testExample
 ````
+
+Executando os tests em classes especificas com o Namespaces
+````bash
+vendor/bin/phpunit --filter  'Tests\\Feature\\Models\\GenreTest'
+````
